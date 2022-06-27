@@ -27,7 +27,7 @@
             <source src="tour.mp4" type="video/mp4">   
           </video>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
-        <div class="container-fluid">
+        <div class="container-fluid px-5">
             <a class="navbar-brand fs-1 log " style="color: #6610f2" href="#">Travel</a>
             <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -70,7 +70,19 @@
     <div class="anim">
         <h4 class="change_contentone"></h4>
         <h2 class="change_content_two"> </h2>
+    
+        <div class="form_edit">
+            <h3 >Choose your Travel location:</h3>
+            <form class = "flex">
+                <input type = "text" class = "form-control" placeholder="Destination name">
+                <input type="date" class = "form-control" placeholder="Date">
+                <input type="number" class = "form-control" placeholder="Price ($)">
+                <input type="submit" class = "btn" value = "Search">
+            </form>
+        </div>
     </div>
+
+   
 </section>
 
 
@@ -83,7 +95,7 @@
             <button class="btn rounded-pill bg-secondary text-light" onclick="myFunction1()">Learn More</button>
         </div>
     </section>
-    <section class="boxes py-3 px-3">
+    <section class="boxes py-5 px-5">
         <div class="box">
           <i class="fas fa-users fa-4x"></i>
           <h3>Advice & Support</h3>
@@ -107,23 +119,161 @@
       </section>
     
         <section>
-            <div class="py-5 container text-center">
+            
+        </div>
+        <div class=" px-5 py-5  text-center">
+            <div></div>
             <h2 class="fw-bolder">Find Your <span class="text-danger">Favourite Destination</span></h2>
-            <p  class="px-5 py-3 text-muted">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
+            <p  class="px-5text-muted">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
             </p>
             <h2>-----</h2>
-            <a class="btn btn-outline-dark" href="#" role="button">Historical</a>
-            <a class="btn btn-outline-dark" href="#" role="button">Weekend</a>
-            <a class="btn btn-outline-dark" href="#" role="button">Holidays</a>
-            <a class="btn btn-outline-dark" href="#" role="button">Special tour</a>
 
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Historical</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Weekend</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Holidays</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Special tour</label>
+        </div>
+                <div class="row py-5 px-5">
+
+                    <div class="col-md-4 col-sm-12 py-5">
+                        <div class="card" style="width: 25rem;">
+                            <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                <hr>
+                              <h5 class="card-title">Nepal Special Tour</h5>
+                              <hr>
+                              <p class="card-text"><i class="fa-solid fa-eye"></i>852 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              
+                            </div>
+                          </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-12 py-5">
+                        <div class="card" style="width: 25rem;">
+                            <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                <hr>
+                              <h5 class="card-title">Canada New Year Tour</h5>
+                              <hr>
+                              <p class="card-text"><i class="fa-solid fa-eye"></i>617 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-12  p-5">
+                        <div class="card" style="width: 25rem;">
+                            <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                <hr>
+                              <h5 class="card-title">America Christmas Tour</h5>
+                              <hr>
+                              <p class="card-text"><i class="fa-solid fa-eye"></i>728 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>  
+                    </div>
+                   
+                </div>
+            
+    </div>   
+
+</section>
+
+<section>
+    <div class="top_deal">
+    <div class="py-5 container text-center">
+        <h2 class="fw-bolder text-light">Today's <span class="text-danger">Top Deal</span></h2>
+        <p  class="px-5 text-light">Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
+        </p>
+        <h2 class="dash text-light">-----</h2>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class=" px-5 py-5 top_deal1">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12  py-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                    <hr>
+                                  <h5 class="card-title">Nepal Special Tour</h5>
+                                  <hr>
+                                  <p class="card-text"><i class="fa-solid fa-eye"></i>852 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  
+                                </div>
+                              </div> 
+                        </div>
+                        <div class="col-md-4 col-sm-12  py-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                    <hr>
+                                  <h5 class="card-title">Canada New Year Tour</h5>
+                                  <hr>
+                                  <p class="card-text"><i class="fa-solid fa-eye"></i>617 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div> 
+                        </div>
+                        <div class="col-md-4 col-sm-12  py-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cdn.pixabay.com/photo/2018/03/28/01/04/water-3267961__340.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 38 Reviews</p>
+                                    <hr>
+                                  <h5 class="card-title">America Christmas Tour</h5>
+                                  <hr>
+                                  <p class="card-text"><i class="fa-solid fa-eye"></i>728 Visiting Places<br> Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>  
+                        </div>
+                        
+                        </div>
+                        </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class=" px-5 py-5 top_deal1">
+        <div class="row">
+
+
+            
+            </div>
+            </div>
+              </div>
+
+              <div class="carousel-item">
+                 <div class=" px-5 py-5 top_deal1">
+        <div class="row">
+            
+            </div>
+            </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+   
 
         </div>
-        </section>
-
-        
+</section>
 
 
+<!-- footer -->
     <section>
         <div class=" px-5 py-5 bg-dark">
             <div class="text-center">
@@ -186,7 +336,6 @@
     </div>
 
             </section>
-
 
            <script src="script.js"></script>
             <script src="bootstrap.min.js"></script>

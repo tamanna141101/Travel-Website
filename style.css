@@ -1,11 +1,12 @@
-:root {
-  --primary: #ddd;
-  --dark: #333;
-  --light: #fff;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
+
 * {
     box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
   }
   nav{
     background: hsla(248, 100%, 2%, 0.5);
@@ -18,11 +19,7 @@
     margin: 1.5px;
 
    }
-  body {
-    margin: 0;
-    font-family: Arial;
-    font-size: 17px;
-  }
+  
   
   #myVideo {
   position: absolute;
@@ -34,14 +31,13 @@
   object-fit: cover;
     
   }
-  .anim {
-    
+  .anim { 
     bottom: 0;
     background: hsla(246, 43%, 18%, 0.5);
     color: #ffffff;
     width: 100%;
     height: 100vh;
-    padding: 200px 20px;
+    padding: 150px 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -61,6 +57,33 @@
     text-shadow: 2px 1px 5px rgb(228, 11, 11);
    
 }
+/*  */
+.form_edit{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 100px 150px;
+  border-radius: 1rem;
+  
+}
+.form_edit h3{
+  font-size:2rem;
+  color: #ffffff;
+}
+.flex{
+  display: flex;
+  padding:15px;
+}
+.form_edit input {
+  margin: 10px 15px;
+  color: #fff;
+  background-color:transparent;
+}
+.form_edit .btn{
+  background-color: aqua;
+}
+
+/*  */
+
 
 .change_contentone:after{
     content: '';
@@ -102,10 +125,10 @@
 
 .box {
   color: #fff;
-  background: #11012b;
+  background: #312f38;
   text-align: center;
   padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);;
 }
 
  /* Info */
@@ -130,4 +153,36 @@ img{
     text-align: center;
     margin: auto;
   }
+ }
+
+ /*  */
+ .fa-solid {
+  color: orange;
+ }
+
+ .card-body p{
+  color: rgb(138, 124, 124);
+ }
+ .card-body hr{
+  color: rgb(95, 83, 83);
+ }
+
+
+ .top_deal {
+  /* The image used */
+  background-image: url('https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+  /* Full height */
+  height: 100%; 
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .carousel-control-prev-icn{
+  color: orange;
  }
